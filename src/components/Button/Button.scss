@@ -1,0 +1,23 @@
+.btn {
+  padding: 5px 5px;
+  cursor: pointer;
+  border: none;
+
+  &-primary {
+    background: #2667FF;
+    display: flex;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translateY(-50%);
+  }
+
+  &-disable {
+    background: #cbe5ff;
+    color: #fff;
+    cursor: not-allowed;
+  }
+}
